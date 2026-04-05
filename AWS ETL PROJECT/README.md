@@ -4,10 +4,10 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 Raw JSON data is processed using a serverless function, cataloged, and then queried using SQL.
 
 Tech Stack:
-AWS Lambda
-Amazon S3
-AWS Glue
-Amazon Athena
+AWS Lambda,
+Amazon S3,
+AWS Glue,
+Amazon Athena,
 Python (Pandas)
 
 Workflow:

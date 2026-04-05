@@ -11,18 +11,18 @@ Amazon Athena,
 Python (Pandas)
 
 Workflow:
-Upload Data
-JSON file is uploaded to S3 bucket
-Transform Data
-Lambda function is triggered
-JSON is converted into a Pandas DataFrame
-Basic transformations are applied
-Output is stored back in S3
-Create Table
-Glue Crawler scans the processed data
-Table is created in Glue Data Catalog
-Query Data
-Athena is used to run SQL queries on the data
+a) Upload Data
+b) JSON file is uploaded to S3 bucket
+c) Transform Data
+d) Lambda function is triggered
+e) JSON is converted into a Pandas DataFrame
+f) Basic transformations are applied
+g) Output is stored back in S3
+h) Create Table
+i) Glue Crawler scans the processed data
+j) Table is created in Glue Data Catalog
+k) Query Data
+l) Athena is used to run SQL queries on the data
 
 
 Architecture
@@ -51,23 +51,23 @@ S3 read access
 
 Challenges Faced:
 
-Handling JSON structure issues
-Setting up S3 trigger for Lambda
-Resolving Glue crawler table creation issues
-Managing IAM permissions
+a) Handling JSON structure issues
+b) Setting up S3 trigger for Lambda
+c) Resolving Glue crawler table creation issues
+d) Managing IAM permissions
 
 Key Learnings:
 
-Built an end-to-end ETL pipeline on AWS
-Learned event-driven architecture
-Gained hands-on experience with Lambda, Glue, and Athena
-Improved data transformation using Python
+a) Built an end-to-end ETL pipeline on AWS
+b) Learned event-driven architecture
+c) Gained hands-on experience with Lambda, Glue, and Athena
+d) Improved data transformation using Python
 
 Future Improvements:
 
-Convert data into Parquet format for better performance
-Add error handling and logging
-Automate pipeline using scheduler (EventBridge)
+a) Convert data into Parquet format for better performance
+b) Add error handling and logging
+c) Automate pipeline using scheduler (EventBridge)
 
 
 Conclusion

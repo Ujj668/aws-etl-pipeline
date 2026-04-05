@@ -1,0 +1,32 @@
+{
+  "batch_id": "BATCH_001",
+  "source": "ecommerce_app",
+  "upload_date": "2026-04-05",
+  "region": "IN",
+  "orders": [
+    {
+      "transaction_id": "T001",
+      "date": "2026-04-01",
+      "customer_id": "C101",
+      "product": "Mobile",
+      "amount": 15000,
+      "payment_method": "UPI"
+    },
+    {
+      "transaction_id": "T002",
+      "date": "2026-04-02",
+      "customer_id": "C102",
+      "product": "Headphones",
+      "amount": 2500,
+      "payment_method": "Card"
+    },
+    {
+      "transaction_id": "T003",
+      "date": "2026-04-03",
+      "customer_id": "C103",
+      "product": "Keyboard",
+      "amount": 1200,
+      "payment_method": "Cash"
+    }
+  ]
+}
